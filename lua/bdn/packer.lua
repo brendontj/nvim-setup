@@ -67,5 +67,20 @@ use({
 	  }
   }
 
+  use {
+      'nvim-tree/nvim-tree.lua',
+      requires = {
+          'nvim-tree/nvim-web-devicons',
+        },
+  }
+  
+  -- Golang Support pluggins
+  use("ray-x/go.nvim")
+  use("ray-x/guihua.lua")
+  use("mfussenegger/nvim-dap")
+  use("rcarriga/nvim-dap-ui")
+  use("theHamsta/nvim-dap-virtual-text")
+  use("nvim-telescope/telescope-dap.nvim")
+ 
   use("github/copilot.vim")
 end)
